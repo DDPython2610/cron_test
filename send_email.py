@@ -4,8 +4,8 @@ import os
 
 port = 465
 smtp_server = "smtp.gmail.com"
-USERNAME = os.environ.get('ddpython2610@gmail.com')
-PASSWORD = os.environ.get('bgjj oqmh gqcf lrsg')
+USERNAME = os.environ.get('USER_EMAIL')
+PASSWORD = os.environ.get('USER_PASSWORD')
 message = """\
 Subject: GitHub Email Report
 
